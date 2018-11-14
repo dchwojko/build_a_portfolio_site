@@ -1,15 +1,28 @@
-.c1 {
+/* SELECTOR GUIDE
+.class	.intro	Selects all elements with class="intro"
+#id	#firstname	Selects the element with id="firstname"
+*	*	Selects all elements
+element	p	Selects all <p> elements
+element,element	div, p	Selects all <div> elements and all <p> elements
+element element	div p	Selects all <p> elements inside <div> elements
+element>element	div > p	Selects all <p> elements where the parent is a <div> element
+element+element	div + p	Selects all <p> elements that are placed immediately after <div> elements
+*/
+
+/* COLORS
     color: #02b3e4;
-}
-
-.c2 {
     color: #2d3c49;
+    color: #7d97ad;
+*/
+
+p.user {
+    color: #00ff00;
 }
 
-.c3 {
-    color: #7d97ad;
+p.work {
+    color: #ff0000;
 }
 
-#featured-work {
-    color: #7d97ad;
+#job_title {
+    height: 50px;
 }

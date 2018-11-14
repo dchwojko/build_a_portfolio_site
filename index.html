@@ -1,38 +1,52 @@
 <!doctype html>
 <html>
     <head>
-        <style></style>
+        <title>Build a Portfolio Site (Udacity - Project #1)</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
     </head>
     <body>
-        <div id="top">
-            <p><img src="img/udacity.jpg" alt="udacity logo" style="width: 100px; height: 100px;"></p>
-            <p>Don Chwojko</p>
-            <p>Front-end Ninja</p>
-            <hr size="5px" style="color: #2d3c49;" />
-            <img src="img/img-hero-large.jpg" alt="placeholder image" style="width: 100%;">
+        <div id="top" style="width: 100%;">
+            <div id="logo" style="float: left;">
+                <img src="img/udacity.jpg" alt="udacity logo" style="width: 100px; height: 100px;">
+            </div>
+            <div id="profile" style="float: right;">
+                <div>
+                    <p id="user">Don Chwojko</p>
+                </div>
+                <div>
+                    <p id="job_title">Front-end Ninja</p>
+                </div>
+            </div>
+            <div>
+                <hr size="5px" style="color: #2d3c49; width:100%;" />
+                <img src="img/img-hero-large.jpg" alt="placeholder image" style="width: 100%;">
+            </div>
         </div>
         <div id="bottom">
-            <div class="featured-work">Featured Work</div>
+            <div>
+                <p class="work">Featured Work</p>
+            </div>
             <div style="width: 100%; display: table;">
-                <div style="display: table-row">
-                    <div style="width:400px; display: table-cell;">
-                        <img src="image1" alt="image 1 placeholder" style="width:100%;">
-                        <p style="text-align:center">Appify</p>
-                        <p style="text-align:center"><a href="link1">Link 1</a></p>
-                    </div>
-                    <div style="width:400px; display: table-cell;">
-                        <img src="image2" alt="image 1 placeholder" style="width:100%;">
-                        <p style="text-align:center">Sunflower</p>
-                        <p style="text-align:center"><a href="link2">Link 2</a></p>
-                    </div>
-                    <div style="width:400px; display: table-cell;">
-                        <img src="image3" alt="image 1 placeholder" style="width:100%;">
-                        <p style="text-align:center">Bokeh</p>
-                        <p style="text-align:center"><a href="link3">Link 3</a></p>
+                    <div style="display: table-row">
+                        <div style="width:400px; display: table-cell;">
+                            <img src="img/appify.jpg" alt="appify image" style="width:100%;">
+                            <p style="text-align:center">Appify</p>
+                            <p style="text-align:center"><a href="link1">Link 1</a></p>
+                        </div>
+                        <div style="width:400px; display: table-cell;">
+                            <img src="img/Sunflower_FO293_Main.jpg" alt="sunflower image" style="width:100%;">
+                            <p style="text-align:center">Sunflower</p>
+                            <p style="text-align:center"><a href="link2">Link 2</a></p>
+                        </div>
+                        <div style="width:400px; display: table-cell;">
+                            <img src="img/Lindsay-Silverman-Bokeh-lights.jpg" alt="bokeh image" style="width:100%;">
+                            <p style="text-align:center">Bokeh</p>
+                            <p style="text-align:center"><a href="link3">Link 3</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </body>
 </html>
 
