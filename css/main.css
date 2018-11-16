@@ -15,14 +15,44 @@ element+element	div + p	Selects all <p> elements that are placed immediately aft
     color: #7d97ad;
 */
 
+/* Used to assure that the user can easily click buttons */
+nav a, button {	
+	min-width: 48px;
+	min-height: 48px;
+}
+
 p.user {
-    color: #00ff00;
+    color: #e8ffe8;
 }
 
 p.work {
-    color: #ff0000;
+    color: #7d97ad;
+}
+
+#user {
+    color: #2d3c49;
+    font-size: 75px;
 }
 
 #job_title {
-    height: 50px;
+    color: #2d3c49;
+    font-size: 50px;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.grid {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    border: 1px solid #ffff00;
+    width: 150px;
+    height: 150px;
 }
