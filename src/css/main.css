@@ -1,0 +1,59 @@
+/* SELECTOR GUIDE
+.class	.intro	Selects all elements with class="intro"
+#id	#firstname	Selects the element with id="firstname"
+*	*	Selects all elements
+element	p	Selects all <p> elements
+element,element	div, p	Selects all <div> elements and all <p> elements
+element element	div p	Selects all <p> elements inside <div> elements
+element>element	div > p	Selects all <p> elements where the parent is a <div> element
+element+element	div + p	Selects all <p> elements that are placed immediately after <div> elements
+*/
+
+/* COLORS
+    color: #02b3e4;
+    color: #2d3c49;
+    color: #7d97ad;
+*/
+
+/* Used to assure that the user can easily click buttons */
+nav a, button {	
+	min-width: 48px;
+	min-height: 48px;
+}
+
+p.user {
+    color: #e8ffe8;
+}
+
+p.work {
+    color: #7d97ad;
+}
+
+#user {
+    color: #2d3c49;
+    font-size: 75px;
+}
+
+#job_title {
+    color: #2d3c49;
+    font-size: 50px;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.grid {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    border: 1px solid #ffff00;
+    min-width: 300px;
+    width: 300px;
+    height: 300px;
+}

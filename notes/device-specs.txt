@@ -1,0 +1,4 @@
+Google Nexus 5:
+- Resolution: 1080x1920
+- PPI: 445
+- DPR: 2.625 (411x731)
