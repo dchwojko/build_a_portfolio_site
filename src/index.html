@@ -4,54 +4,67 @@
         <title>Build a Portfolio Site (Udacity - Project #1)</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
-        <!--STYLESHEETS-->
-        <link rel="stylesheet" media="screen and (min-width:500px)" href="css/over500.css"/>
-        <link rel="stylesheet" href="main.css"/>
-        <!--EXAMPLE OF HOW TO USE A BASIC MEDIA QUERY-->
-        <link rel="stylesheet" media="screen and (min-width:10000px)" href="css/do_not_use.css"/>
+        <link rel="stylesheet" href="./css/main.css"/>
+        <link rel="stylesheet" media="screen and (min-width:500px)" href="./css/over500.css"/>
+        <link rel="stylesheet" media="screen and (min-width:1000px)" href="css/over1000.css"/>
     </head>
     <body>
-        <div id="top" style="width: 100%;">
-            <div id="logo" style="float: left;">
-                <img src="img/udacity.jpg" alt="udacity logo" style="width: 100px; height: 100px;">
-            </div>
-            <div id="profile" style="float: right;">
-                <div id="user">
-                    Don Chwojko
+        <div class="main">
+            <div class="top-section">
+                <div class="logo">
+                    <img id="logo-image" src="./img/logo_image_set/udacity.jpg" alt="logo image">
                 </div>
-                <div id="job_title">
-                    Front-end Ninja
+                <div class="user">
+                    <div class="user-name">Don Chwojko</div>
+                    <div class="user-title">Front-End Web Developer</div>
                 </div>
             </div>
-            <div>
-                <hr size="5px" style="color: #2d3c49; width:100%;" />
-                <img src="img/banner_image.jpg" alt="placeholder image" style="width: 100%;">
+            <div class="middle-section">
+                <hr id="line-break"/>
+                <img id="banner-image" src="./img/banner_image_set/banner_image.jpg" alt="banner image" >
             </div>
-        </div>
-        <div id="bottom">
-            <div>
-                <p class="work">Featured Work</p>
-            </div>
-            <div class="grid-container">
-                <div class="grid">
-                    <div class="grid-item">
-                        <img src="img/appify.jpg" alt="appify image" style="width:100%;">
-                        <p style="text-align:center">Appify</p>
-                        <p style="text-align:center"><a href="https://github.com/dchwojko/udacity-reactnd-myreads">React ND MyReads Project</a></p>
+            <div class="bottom-section">
+                <div class="work-title">
+                    Featured Work
+                </div>
+                <div class="projects">
+                    <div class="project">
+                        <img id="project-image-1" src="./img/project_images/appify.jpg" alt="Appify image" >
+                        <div class="project-title">Appify</div>
+                        <div class="project-link">
+                            <a href="http://www.udacity.com">url to appify</a>
+                        </div>
                     </div>
-                    <div class="grid-item">
-                        <img src="img/Sunflower_FO293_Main.jpg" alt="sunflower image" style="width:100%;">
-                        <p style="text-align:center">Sunflower</p>
-                        <p style="text-align:center"><a href="link2">Link 2</a></p>
+                    <div class="project">
+                        <img id="project-image-2" src="./img/project_images/Sunflower_FO293_Main.jpg" alt="Sunflower image" >
+                        <div class="project-title">Sunflower</div>
+                        <div class="project-link">
+                            <a href="http://www.udacity.com">url to appify</a>
+                        </div>
                     </div>
-                    <div class="grid-item">
-                        <img src="img/Lindsay-Silverman-Bokeh-lights.jpg" alt="bokeh image" style="width:100%;">
-                        <p style="text-align:center">Bokeh</p>
-                        <p style="text-align:center"><a href="link3">Link 3</a></p>
+                    <div class="project">
+                        <img id="project-image-3" src="./img/project_images/Lindsay-Silverman-Bokeh-lights.jpg" alt="Bokeh image" >
+                        <div class="project-title">Appify</div>
+                        <div class="project-link">
+                            <a href="http://www.udacity.com">url to appify</a>
+                        </div>
                     </div>
+                    <div class="project">
+                        <img id="project-image-4" src="./img/project_images/Lindsay-Silverman-Bokeh-lights.jpg" alt="Bokeh image" >
+                        <div class="project-title">Appify</div>
+                        <div class="project-link">
+                            <a href="http://www.udacity.com">url to appify</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                            <img id="project-image-5" src="./img/project_images/Lindsay-Silverman-Bokeh-lights.jpg" alt="Bokeh image" >
+                            <div class="project-title">Appify</div>
+                            <div class="project-link">
+                                <a href="http://www.udacity.com">url to appify</a>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
     </body>
 </html>
-

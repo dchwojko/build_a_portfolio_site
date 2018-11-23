@@ -12,87 +12,76 @@ nav a, button {
 }
 
 .top-section {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
-}
-
-.logo {
-    max-width: 100px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
 }
 
 #logo-image {
-    max-width: 100px;
+    max-height: 100px;
+    width: 250px;
 }
 
 .user {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    max-height: 100px;
 }
 
 .user-name {
-    font-size: 30px;
     color: #2d3c49;
+    font-size: 4em;
+    max-height: 100px;
 }
 
 .user-title {
-    font-size: 20px;
     color: #2d3c49;
-}
-
-.middle-section {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
+    font-size: 35px;
 }
 
 #line-break {
-    width: 100%;
-    border: 1px solid #02b3e4;
+    border: 1px #02b3e4 solid;
 }
 
 #banner-image {
-    width: 100%;
+    min-width: 100%;
 }
 
 .bottom-section {
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: center;
 }
 
 .work-title {
     color: #7d97ad;
-    font-size: 30px;
-    text-align: center;
 }
 
-.project {
+.projects {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project {
+    max-width: 200px;
 }
 
 .project img[id^='project-image-'] {
     min-width: 100%;
     height: auto;
-    max-height: 225px;
 }
 
 .project-title {
-    text-align: center;
-    font-size: 15px;
     color: #2d3c49;
 }
 
 .project-link {
-    text-align: center;
-    font-size: 10px;
     color: #2d3c49;
-    width: 100%;
 }
