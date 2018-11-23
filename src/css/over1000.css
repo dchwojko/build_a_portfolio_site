@@ -11,13 +11,13 @@ nav a, button {
     flex-direction: column;
 }
 
-.top-section {
+header {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    height: 100px;
+    height: 200px;
 }
 
 #logo-image {

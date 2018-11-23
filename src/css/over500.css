@@ -11,7 +11,7 @@ nav a, button {
     flex-direction: column;
 }
 
-.top-section {
+header {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -24,10 +24,12 @@ nav a, button {
 
 .user-name {
     color: #2d3c49;
+    font-size: 60px;
 }
 
 .user-title {
-    color: #7d97ad;  
+    color: #7d97ad;
+    font-size: 40px;
 }
 
 #line-break {
